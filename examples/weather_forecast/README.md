@@ -9,7 +9,7 @@
 
 This is an example of using the [Minerva](https://github.com/GlebBatykov/minerva) framework.
 
-This example contains one endpoint for the `GET` request at `/weather Forecast`.
+This example contains one endpoint for the `GET` request at `/weatherForecast`.
 
 You can run the example using the `minerva run` command.
 
