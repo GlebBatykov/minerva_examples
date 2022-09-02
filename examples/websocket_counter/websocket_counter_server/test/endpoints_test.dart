@@ -18,13 +18,13 @@ void main() {
       socket = await WebSocket.connect('ws://$host:$port/counter');
     });
 
-    test('\'get\' command', () async {
+    test('Test get command', () async {
       socket.add('get');
 
       expect(int.parse(await socket.first), counter);
     });
 
-    test('\'increment\' command', () async {
+    test('Test increment command', () async {
       counter++;
 
       socket.add('increment');
@@ -32,7 +32,7 @@ void main() {
       expect(int.parse(await socket.first), counter);
     });
 
-    test('\'decrement\' command', () async {
+    test('Test decrement command', () async {
       counter--;
 
       if (counter < 0) {
