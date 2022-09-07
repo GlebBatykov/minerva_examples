@@ -37,11 +37,11 @@ class FileApi extends Api {
 
     var file = await _getFileToWrite(field.name);
 
-    await file.create();
+    await file.create(recursive: true);
 
     await file.writeAsBytes(field.bytes);
 
-    var fileName = file.path.split('/').last;
+    var fileName = basename(file.path);
 
     return {'fileName': fileName};
   }
@@ -58,7 +58,7 @@ class FileApi extends Api {
         fileName = stringGenerator.generate(12);
 
         if (fileExtension.isNotEmpty) {
-          fileName += '.$fileExtension';
+          fileName += fileExtension;
         }
 
         file = File.fromUri(Uri.parse('$_folderPath/$fileName'));

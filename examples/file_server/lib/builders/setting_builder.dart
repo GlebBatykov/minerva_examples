@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:minerva/minerva.dart';
 
 import 'apis_builder.dart';
@@ -9,7 +11,7 @@ class SettingBuilder extends MinervaSettingBuilder {
   MinervaSetting build() {
     // Creates server setting
     return MinervaSetting(
-        instance: 1,
+        instance: Platform.numberOfProcessors,
         loggersBuilder: LoggersBuilder(),
         apisBuilder: ApisBuilder(),
         middlewaresBuilder: MiddlewaresBuilder());
