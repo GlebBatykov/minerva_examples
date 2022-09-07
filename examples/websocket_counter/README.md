@@ -13,7 +13,7 @@ This example contains a multithreaded websocket server implemented using `Minerv
 
 The server contains the state of the counter, allows clients connecting to websockets to interact and receive this state.
 
-Using the `instance` parameter of the `MinervaSetting` class allows us to set the number of server instances to be started. We have specified the value of the `instance` parameter as `Platform.NumberOfProcessors` from the `ё`dart:io` library. This means that the number of server instances will be equal to the number of available threads of our processor.
+Using the `instance` parameter of the `MinervaSetting` class allows us to set the number of server instances to be started. We have specified the value of the `instance` parameter as `Platform.NumberOfProcessors` from the `dart:io` library. This means that the number of server instances will be equal to the number of available threads of our processor.
 
 Features of the server implementation using `Minerva`. With the help of `Minerva` we run several instances of our server, each of which runs in its own isolate. Thus, each server instance contains its own internal state. 
 

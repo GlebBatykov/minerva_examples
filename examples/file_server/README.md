@@ -16,4 +16,4 @@ This example contains the following endpoints:
 
 The path to the file storage folder is set in the `values` of the `app setting.json` file. We get this value in the code using the `ConfigurationManager` class.
 
-Using the `instance` parameter of the `MinervaSetting` class allows us to set the number of server instances to be started. We have specified the value of the `instance` parameter as `Platform.NumberOfProcessors` from the `ё`dart:io` library. This means that the number of server instances will be equal to the number of available threads of our processor.
+Using the `instance` parameter of the `MinervaSetting` class allows us to set the number of server instances to be started. We have specified the value of the `instance` parameter as `Platform.NumberOfProcessors` from the `dart:io` library. This means that the number of server instances will be equal to the number of available threads of our processor.
