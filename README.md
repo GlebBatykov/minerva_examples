@@ -11,6 +11,6 @@ This repository contains examples of using the server framework [Minerva](https:
 
 - [Hello](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/hello);
 - [WeatherForecast](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/weather_forecast);
-- [WebSocketCounter](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/websocket_counter);
-- [FileServer](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/file_server);
-- [JWTAuthentication](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/jwt_authentication).
+- [WebSocket counter](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/websocket_counter);
+- [File server](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/file_server);
+- [JWT authentication](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/jwt_authentication).
