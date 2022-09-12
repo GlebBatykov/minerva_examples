@@ -20,14 +20,16 @@ class FileApi extends Api {
 
   @override
   void build(Endpoints endpoints) {
-    endpoints.post('/upload', _upload,
-        filter: Filter(
-            body: FormFilter(fields: [FormField('file', FormFieldType.file)])));
+    var uploadFilter = Filter(
+        body: FormFilter(fields: [FormField('file', FormFieldType.file)]));
 
-    endpoints.get('/download', _download,
-        filter: Filter(
-            queryParameters: QueryParametersFilter(
-                parameters: [QueryParameter(name: 'fileName')])));
+    var downloadFilter = Filter(
+        queryParameters: QueryParametersFilter(
+            parameters: [QueryParameter(name: 'fileName')]));
+
+    endpoints.post('/upload', _upload, filter: uploadFilter);
+
+    endpoints.get('/download', _download, filter: downloadFilter);
   }
 
   dynamic _upload(ServerContext context, MinervaRequest request) async {
