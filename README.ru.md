@@ -12,4 +12,5 @@
 - [Hello](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/hello);
 - [WeatherForecast](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/weather_forecast);
 - [WebSocketCounter](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/websocket_counter);
-- [FileServer](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/file_server).
+- [FileServer](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/file_server);
+- [JWTAuthentication](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/jwt_authentication).
