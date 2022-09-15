@@ -11,7 +11,7 @@
 
 - [Hello](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/hello) - простой пример;
 - [WeatherForecast](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/weather_forecast) - простой пример;
-- [WebSocket counter](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/websocket_counter) - пример `Full-Stack` `Dart` приложения;
+- [WebSocket counter](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/websocket_counter) - пример `Full-Stack` `Dart` приложения использующего вебсокеты;
 - [File server](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/file_server) - пример файловый сервер;
 - [JWT authentication](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/jwt_authentication) - пример использования `JWT` аутентификации;
 - [Serve static files](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/serve_static_files) - пример раздачи статических файлов.
