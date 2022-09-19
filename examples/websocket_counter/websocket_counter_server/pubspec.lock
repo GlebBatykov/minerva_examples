@@ -78,13 +78,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.2"
-  dio:
-    dependency: "direct dev"
-    description:
-      name: dio
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "4.0.6"
   file:
     dependency: transitive
     description:
@@ -179,10 +172,10 @@ packages:
   minerva:
     dependency: "direct main"
     description:
-      path: "/home/darkartes/Documents/GitHub/minerva"
-      relative: false
-    source: path
-    version: "0.1.8"
+      name: minerva
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.0"
   node_preamble:
     dependency: transitive
     description:
