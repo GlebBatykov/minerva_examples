@@ -1,12 +1,35 @@
-# serve_static_files
+<div align="center">
 
-A new Minerva project.
+**Languages:**
+  
+[![English](https://img.shields.io/badge/Language-English-blue?style=?style=flat-square)](README.md)
+[![Russian](https://img.shields.io/badge/Language-Russian-blue?style=?style=flat-square)](README.ru.md)
 
-## Getting Started
+</div>
 
-This project is a starting point for a Minerva application.
+This is an example of using the [Minerva](https://github.com/GlebBatykov/minerva) framework.
 
-A few resources to get you started if this is your first Minerva project:
+This example uses `StaticFilesMiddleware` to serve static files.
 
-- [Documentation](https://github.com/GlebBatykov/minerva)
-- [Examples](https://github.com/GlebBatykov/minerva_examples)
+The folder `/wwwroot` is specified as a folder with static files, however, you can specify any folder.
+
+The path `/files` is specified as the path for accessing static files.
+
+The `wwwroot` folder was added to the final assembly using the `assets` parameter in the `app setting.json` file.
+
+Structure of the `wwwroot` folder:
+
+- `images`
+  - `cat.jpg`
+  - `city.jpg`
+- `hello.txt`
+- `index.txt`
+
+The files in this example can be accessed by paths:
+
+- `http://127.0.0.1:5000/files/images/cat.jpg`
+- `http://127.0.0.1:5000/files/images/city.jpg`
+- `http://127.0.0.1:5000/files/hello.txt`
+- `http://127.0.0.1:5000/files/index.txt`
+
+Using the `instance` parameter of the `Minerva Setting` class allows us to set the number of server instances to be started. We have specified the value of the `instance` parameter as `Platform.NumberOfProcessors` from the `dart:io` library. This means that the number of server instances will be equal to the number of available threads of our processor.
