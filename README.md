@@ -14,4 +14,5 @@ This repository contains examples of using the server framework [Minerva](https:
 - [WebSocket counter](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/websocket_counter) - example of `Full-Stack` `Dart` application using websockets;
 - [File server](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/file_server) - example file server;
 - [JWT authentication](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/jwt_authentication) - example of using `JWT` authentication;
-- [Serve static files](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/serve_static_files) - example of serve static files.
+- [Serve static files](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/serve_static_files) - example of serve static files;
+- [Gateway](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/gateway) - example of implementing a gateway service.
