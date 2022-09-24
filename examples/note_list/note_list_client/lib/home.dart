@@ -7,8 +7,11 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Body(),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Note list example'),
+      ),
+      body: const Body(),
     );
   }
 }

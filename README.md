@@ -15,4 +15,5 @@ This repository contains examples of using the server framework [Minerva](https:
 - [File server](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/file_server) - example file server;
 - [JWT authentication](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/jwt_authentication) - example of using `JWT` authentication;
 - [Serve static files](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/serve_static_files) - example of serve static files;
-- [Gateway](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/gateway) - example of implementing a gateway service.
+- [Gateway](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/gateway) - example of implementing a gateway service;
+- [Note list](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/note_list ) - example of `Full-Stack` `Dart` application, list of notes using a server implemented using `Minerva`.

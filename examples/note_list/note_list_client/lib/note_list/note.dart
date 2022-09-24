@@ -1,10 +1,14 @@
-import 'package:flutter/widgets.dart';
+class Note {
+  final String id;
 
-class Note extends StatelessWidget {
-  const Note({Key? key}) : super(key: key);
+  final String title;
 
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
+  final String value;
+
+  Note(this.id, this.title, this.value);
+
+  Note.fromJson(Map<String, dynamic> json)
+      : id = json['_id'],
+        title = json['title'],
+        value = json['value'];
 }

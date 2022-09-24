@@ -4,7 +4,6 @@ import 'package:minerva/minerva.dart';
 
 import 'apis_builder.dart';
 import 'middlewares_builder.dart';
-import 'server_builder.dart';
 import 'loggers_builder.dart';
 
 class SettingBuilder extends MinervaSettingBuilder {
@@ -14,7 +13,6 @@ class SettingBuilder extends MinervaSettingBuilder {
     return MinervaSetting(
         instance: Platform.numberOfProcessors,
         loggersBuilder: LoggersBuilder(),
-        serverBuilder: ServerBuilder(),
         apisBuilder: ApisBuilder(),
         middlewaresBuilder: MiddlewaresBuilder());
   }
