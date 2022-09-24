@@ -3,10 +3,10 @@ import 'package:minerva/minerva.dart';
 class CalculatorApi extends Api {
   @override
   void build(Endpoints endpoints) {
-    const filter = Filter(
+    const filter = RequestFilter(
         body: JsonFilter(fields: [
-      JsonField(name: 'first', type: JsonFieldType.double),
-      JsonField(name: 'second', type: JsonFieldType.double)
+      JsonField(name: 'first', type: JsonFieldType.num),
+      JsonField(name: 'second', type: JsonFieldType.num)
     ]));
 
     endpoints.post('/add', _add, filter: filter);

@@ -17,7 +17,7 @@ class AuthApi extends Api {
 
   @override
   void build(Endpoints endpoints) {
-    var filter = Filter(
+    var filter = RequestFilter(
         body: JsonFilter(fields: [
       JsonField(name: 'username', type: JsonFieldType.string),
       JsonField(name: 'role', type: JsonFieldType.string)

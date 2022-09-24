@@ -20,10 +20,10 @@ class FileApi extends Api {
 
   @override
   void build(Endpoints endpoints) {
-    var uploadFilter = Filter(
+    var uploadFilter = RequestFilter(
         body: FormFilter(fields: [FormField('file', FormFieldType.file)]));
 
-    var downloadFilter = Filter(
+    var downloadFilter = RequestFilter(
         queryParameters: QueryParametersFilter(
             parameters: [QueryParameter(name: 'fileName')]));
 
