@@ -9,6 +9,8 @@
 
 This is an example of using the [Minerva](https://github.com/GlebBatykov/minerva) framework.
 
+This example contains two Minerva applications:
+
 - `gateway`. An example of the implementation of a `geteway` service that uses `JWT` authentication, forwarding requests according to the user's access level;
 - `calculator_service`. A simple demo service that implements 4 endpoints for adding, subtracting, dividing and multiplying numbers.
 
