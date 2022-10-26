@@ -17,3 +17,13 @@ This repository contains examples of using the server framework [Minerva](https:
 - [Serve static files](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/serve_static_files) - example of serve static files;
 - [Gateway](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/gateway) - example of implementing a gateway service;
 - [Note list](https://github.com/GlebBatykov/minerva_examples/tree/main/examples/note_list ) - example of `Full-Stack` `Dart` application, list of notes using a server implemented using `Minerva`.
+
+get all packages
+=====
+
+    melos get
+
+run all tests
+======
+
+    melos test

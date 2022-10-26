@@ -1,0 +1,25 @@
+name: needle_orm
+
+repository: https://github.com/needle-dart/needle_orm_all.dart
+
+packages:
+  - examples/**
+
+command:
+  bootstrap:
+    usePubspecOverrides: true
+    
+scripts:
+  get:
+    exec: dart pub get .
+  test:
+    exec: minerva test
+  analyze:
+    exec: dart analyze .
+  format:
+    exec: dart format .
+  doc:
+    exec: dart doc
+  doc-clean:
+    exec: rm -rf doc
+
