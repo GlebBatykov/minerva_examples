@@ -1,9 +1,7 @@
 import 'dart:math';
 
 import 'package:minerva/minerva.dart';
-import 'package:minerva_controller/minerva_controller.dart';
 import 'package:minerva_controller_annotation/minerva_controller_annotation.dart';
-import 'package:minerva_controller_generator/minerva_controller_generator.dart';
 
 import '../models/weather_forecast.dart';
 
